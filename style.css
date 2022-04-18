@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p, span, a{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    width: 100%;
+}
+
+.container{
+    width: 1240px;
+    margin: auto;
+}
+
+.header-section{padding: 10px 0;}
+.header-section .menu{}
+.header-section .menu ul{text-align: center;}
+.header-section .menu ul li{display: inline-block;}
+.header-section .menu ul li a{text-decoration: none;padding: 10px 20px;display: inline-block;background-color: #48dbfb;color: #000;}
+
+.banner-section{background-color: #48dbfb;padding: 100px 0;text-align: center;}
+.banner-section h4{color: #fff;font-weight: 500;font-size: 20px;}
+.banner-section h1{color: #fff;margin: 10px 0;font-size: 40px;}
+.banner-section button{margin-top: 10px;border-radius: 7px;border: none;background-color: #ffffff;}
+.banner-section button a{color: #ccc;padding: 15px 17px;display: inline-block;text-decoration: none;font-size: 18px;}
+.banner-section button a span{margin-right: 10px;}
+
+.about-section{background-color: #f7f9f9;padding: 100px 0;}
+.about-section .about-header{text-align: center;}
+.about-section .about-header h1{}
+.about-section .about-header p{margin-bottom: 100px;}
+.about-section .about-box{}
+.about-section .about-box .image{}
+.about-section .about-box .image img{width: 23%;margin: 10px;}
+.service-section{padding-top: 80px;background-color: #f7f9f9;text-align: center;padding-bottom: 18px;}
+.service-section .service-content{}
+.service-section .service-content h2{margin-bottom: 20px;font-size: 30px;font-weight: 500;}
+.service-section .service-content p{color: #797676;padding-bottom: 30px;}
+.service-btn{position: relative;}
+.service-btn .btn-1{position: absolute;top: 0;left: 0;padding: 10px 20px;border: none;background-color: #000;color: #fff;transform: rotate(-40deg);}
+.service-btn .btn-2{padding: 10px 20px;border: none;background-color: #000;color: #fff;}
+.service-btn .btn-3{position: absolute;top: 0;right: 0;padding: 10px 20px;border: none;background-color: #000;color: #fff;transform: rotate(40deg);}
+
+.fotter-section{background-color: #2e2f31;text-align: center;}
+.fotter-section p{color: #fff;padding: 25px 0;font-size: 18px;}
